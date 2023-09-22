@@ -1,0 +1,59 @@
+
+.container {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav-bar {
+    position: fixed; /* Set the header to a fixed position */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%;
+    text-align: right;
+    background-color: rgb(131, 24, 24);
+    padding: 15px 0;
+}
+
+.nav-bar-in {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar-in li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.nav-bar-in li a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 15px;
+    font-size: larger;
+}
+
+.nav-bar-in li a:hover {
+    color: rgb(154, 195, 234);
+}
+
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #201c1c;
+    overflow: hidden;
+    color: aliceblue;
+    font-size: 30px; /* Increase the font size to your preferred value */
+  }
+  
+  
+  #typing-text {
+    white-space: nowrap;
+    font-size: 35px;
+  }
+  
