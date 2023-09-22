@@ -33,4 +33,16 @@ function reverseText() {
   typeText();
 }
 
-typeText(); // Start the animation
+typeText(); 
+// Get all project overlay elements
+const overlayElements = document.querySelectorAll(".overlay");
+
+// Add mouseover and mouseout event listeners to each overlay
+overlayElements.forEach((element, index) => {
+  element.addEventListener("mouseover", () => {
+    element.textContent = `</ Project ${index + 1}/>`;
+  });
+  element.addEventListener("mouseout", () => {
+    element.textContent = `Project ${index + 1}`;
+  });
+});
